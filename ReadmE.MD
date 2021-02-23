@@ -4,7 +4,7 @@ How it works:
 
 Preparation:
 
-If you haven’t installed python already, do that. As soon as you did that, you have to pip-install the python packages “YouTube_dl” and “moviepy”. For that just type “pip install YouTube_dl” and “pip install moviepy” in your terminal.
+If you haven’t installed python already, do that. As soon as you did that, you have to pip-install the python packages “YouTube_dl” and “moviepy”. For that just type “pip install YouTube_dl”, "pip install IPython" and “pip install moviepy” in your terminal.
 
 Install ImageMagic As Well 
 and in the root that python installed ..Lib/site-packages/moivepy/config_defult.py, change  IMAGEMAGICK_BINARY = os.getenv('IMAGEMAGICK_BINARY', 'auto-detect') to 
