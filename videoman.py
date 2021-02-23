@@ -213,7 +213,7 @@ for idx, line in enumerate(links.readlines()):
         
     # # Overlay the text clip on the first video clip
     txt_clip = ImageClip('cor.png')
-    txt_clip_ = txt_clip.set_position(lambda t: (min(w/30,int(w-0.5*w*t)),max(5*h/6.3,0))).set_duration(5)  
+    txt_clip_ = txt_clip.set_position(lambda t: (min(w/30,int(w-0.5*w*t)),max(5*h/6.3,0))).fadein(2.0).set_duration(5)  
     video_ = CompositeVideoClip([clip, txt_clip_])  
         
     # # Saving video
